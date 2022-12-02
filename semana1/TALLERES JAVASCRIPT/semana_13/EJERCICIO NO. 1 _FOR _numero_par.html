@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CICLO FOR</title>
+
+</head>
+
+<body>
+        <center>
+
+            <h3>GENERACIÓN DE NÚMEROS PARES </h3>
+
+                <script>
+
+                        let inicio, final;
+
+                        let num=0;//var para contar numeros pares 
+
+                        inicio=parseInt(prompt("Número inicial rango"));
+
+                        final=parseInt(prompt("Número final rango"));
+
+                        for(f=inicio;f<=final;f++)
+
+                    {   
+
+                    if (f % 5 == 0){
+
+                    document.write("multiplos de cinco..."+f+"<br>");
+
+                    num++;//var contador de nuemeros pares 
+
+                    }
+
+                    }
+
+                    document.write("cantidad de multiplos generados..."+num+"<br>");
+
+                    </script>
+                
+                    </center>
+
+</body>
+
+</html>

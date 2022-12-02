@@ -1,0 +1,94 @@
+.Gris {
+    background-color: #6f6f6f !important;
+    padding: 1em;
+}
+
+form {
+    width: 100%;
+    margin: 10px auto;
+    color: rgb(7, 7, 7);
+    margin-left: 0px;
+}
+
+td.td-table {
+    width: 50%;
+}
+
+label {
+    font-size: 18px;
+    outline: none;
+}
+
+textarea {
+    max-height: 100px;
+    outline: none;
+    color: rgb(255, 0, 0);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: #000000 2px solid;
+    background-color: #6f6f6f;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+fieldset {
+    border-style: none;
+    outline: none;
+    font-style: rgb(255, 2, 2);
+    margin-left: 40px;
+    margin: auto;
+}
+
+form button {
+    width: 30%;
+    margin: 15px 0px 20px 25px;
+    height: 40px;
+    background-color: #ff0000;
+    border: 0px;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background: #b5f8af;
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input {
+    height: 16px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+    background-color: #000000;
+    border-bottom: #ffffff 2px solid;
+    font-style: rgb(245, 0, 0);
+}
+
+.input-Contact {
+    width: 90%;
+}
+
+select {
+    background-color: #000000;
+    outline: none;
+    border: 0px;
+    color: #fff;
+    border-bottom: #ffffff 2px solid;
+}
+
+select:focus {
+    background-color: #050505;
+    outline: none;
+}
+
+textarea.coment {
+    background-color: #000000;
+    outline: none;
+    border: 0px;
+    color: #fff;
+    border-bottom: #ff0000 2px solid;
+}

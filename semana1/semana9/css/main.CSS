@@ -1,0 +1,47 @@
+@font-face {
+    font-family:Ramadhan Mubarak ;
+    src: url(../fonts/Ramadhan\ Mubarak.ttf);
+}
+body {
+
+    font-family: Ramadhan Mubarak ;
+    background-image: url(../img/fondo_azul.jpeg);
+    color: white;
+    
+    }
+
+    
+    
+    .navbar-brand {
+    
+    font-size: 20px;
+    
+    color: #000;
+    
+    font-weight: bold;
+    
+    }
+    
+    #testimonial {
+    
+    
+    
+    padding: 50px 0 30px 0;
+    
+    text-align:center;
+    
+    margin-top: 40px;
+    
+    }
+    
+    #contact {
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content:space-around ;
+    
+    flex-wrap: wrap;
+    
+    }

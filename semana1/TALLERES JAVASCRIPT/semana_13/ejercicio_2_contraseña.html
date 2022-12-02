@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Ejemplo de JavaScript</title>
+
+<meta charset="UTF-8">
+
+<!-- link de sitio Sweetalert mensajes más elegantes-->
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+    <center>
+
+<h1>Validación de inicio de sesion </h1>
+
+<script>
+
+let datof;//contraseña ingreada por usuario
+
+let sw=0;//valida si la contraseña es exitosa
+
+let clave=123;
+
+//proceso
+
+for(f=1;f<=3;f++)
+
+{
+
+datof=parseInt(prompt("Ingrese contraseña de ingreso"));
+
+if (datof==clave){
+
+swal("usuario","acceso permitido","success");
+
+document.write("ACCESS GRANTED");
+
+sw=1;
+
+break;
+
+}
+
+}
+
+if (sw==0){
+swal("usuario","acceso bloqueado","error");
+
+}
+
+</script>
+</center>
+</body>
+
+</html>
